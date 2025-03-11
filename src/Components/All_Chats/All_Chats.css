@@ -1,0 +1,19 @@
+.all-chats-container{
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 55, 55);
+    flex-direction: column;
+}
+
+.all-chats-inner-container{
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
