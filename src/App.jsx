@@ -6,8 +6,8 @@ import All_Chats from './Components/All_Chats/All_Chats'
 function App() {
   return (
     <>
-      <All_Chats />
       <Navbar />
+      <All_Chats />
     </>
   )
 }

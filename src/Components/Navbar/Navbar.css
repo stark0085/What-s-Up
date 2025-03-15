@@ -1,9 +1,34 @@
 .navbar-container{
-    padding: 0.2rem;
+    position: fixed;
     background-color: yellow;
     color: black;
-    width: 100vw;
+    width: 8vw;
     display: flex;
     justify-content: center;
-    border: 2px solid white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 1vw;
+}
+
+.navbar-icons{
+    
+}
+
+.navbar-icon{
+    margin: 1vh 0;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: slategray;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-icon:hover{
+    background-color: aqua;
+    color: black;
+    border: 2px solid red;
 }
