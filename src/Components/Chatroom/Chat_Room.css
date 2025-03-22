@@ -1,0 +1,72 @@
+.current-chat-main-container{
+    display: flex;
+    margin-left: 32.5vw;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    width: 67vw;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+
+.current-chat-sender-s-details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    border-bottom: 2px solid black;
+    padding-left: 0.5vw;
+}
+
+.current-chat-profile{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+
+.current-chat-all-messages{
+    width: 100%;
+    background-color: orange;
+    height: 85.7%;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.current-chat-input-div{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.4vh;
+    padding-top: 0.4vh;
+    background-color: blue;
+    width: 100%;
+}
+
+.current-chat-input-field{
+    width: 55vw;
+    margin: 0 2vw 0 4vw;
+    height: 3vh;
+    padding: 2vh 0.2vw;
+    font-size: 1.2rem;
+}
+
+.current-chat-input-div button{
+    margin: 0 1vw;
+    padding: 0.3vw;
+    cursor: pointer;
+}
+
+.current-chat-single-msg{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(219, 162, 219);
+}
+
+.current-chat-ReceiveMsg{
+    background-color: green;
+    color: white;
+}

@@ -1,9 +1,6 @@
 .all-chats-main-container{
     margin-left: 8vw;
-    width: 92vw;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    width: 25vw;
     background-color: rgb(205, 55, 55);
     flex-direction: row;
 }
@@ -12,7 +9,9 @@
     padding: 0 1vw;
     border-right: 2px solid black;
     height: 100vh;
-    width: 25vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .all-chats-container h2{
@@ -21,6 +20,12 @@
 
 .all-chats-input-group{
     margin:  0 0 .5vh 0;
+}
+
+.all-chats-input-group input{
+    width: 85%;
+    padding: 0.5vh 0.3vw;
+    font-size: 1.1rem;
 }
 
 .all-chats-inner-container{
@@ -33,49 +38,13 @@
     align-items: center;
 }
 
+.all-chats-profile{
+    padding-right: .5vw;
+}
+
 .all-chats-each-chat{
     margin: 0.5vh 0;
     border: 2px solid black;
     width: 100%;
     padding: .5vw;
-}
-
-.all-chats-profile{
-    padding-right: .5vw;
-}
-
-.all-chats-current-chat{
-    height: 100vh;
-    background-color: aqua;
-    width: 70vw;
-}
-
-.current-chat-input-group{
-    position: fixed;
-    bottom: 0.5vh;
-    margin: 0 4.5vw;
-}
-
-.current-chat-input-tag{
-    width: 55vw;
-    height: 3vh;
-}
-
-.current-chat-send-button{
-    margin: 0 0.5vw;
-    padding: 0.4rem;
-}
-
-.all-chats-each-chat{
-    position: relative;
-}
-
-.all-chats-each-chat h3{
-    display: inline;
-}
-
-.current-chat-time{
-    position: absolute;
-    right: 1vw;
-    top: 17%;
 }
