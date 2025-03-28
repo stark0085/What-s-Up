@@ -32,6 +32,7 @@
     height: 85.7%;
     font-size: 1.3rem;
     padding: 1rem;
+    rotate: 180deg;
 }
 
 .current-chat-input-div{
@@ -64,6 +65,7 @@
     margin-bottom: 0.5rem;
     border-radius: 5px;
     background-color: rgb(219, 162, 219);
+    rotate: 180deg;
 }
 
 .current-chat-ReceiveMsg{
